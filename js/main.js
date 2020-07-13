@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Ya-Wen Chang.", "張雅雯", "Dietitian."],
+      strings: ["張 雅 雯", "Ya-Wen Chang"],
       typeSpeed: 100,
       loop: true,
     });
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 
   $('.services-carousel').owlCarousel({
-      autoplay: true,
+      autoplay: false,
       loop: true,
       margin: 20,
       dots: true,

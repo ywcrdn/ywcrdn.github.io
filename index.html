@@ -53,11 +53,12 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#journal" class="smoothScroll">Blog</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="#header" class="smoothScroll">首頁 Home</a></li>
+          <li><a href="#about" class="smoothScroll">關於我 About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">營養與我</a></li>
+          <li><a href="#podcast" class="smoothScroll">有聲節目 Podcast</a></li>
+          <li><a href="#episode" class="smoothScroll">單節節目 Episode</a></li>
+          <li><a href="#contact" class="smoothScroll">留言給我 Contact</a></li>
         </ul>
 
       </div>
@@ -70,17 +71,13 @@
   <div id="header" class="home">
 
     <div class="container">
-      <div class="header-content">
-        <h1>I'm <span class="typed"></span></h1>
-        <p>designer, developer, photographer</p>
+      <div style="text-align: right;" class="header-content">
+        <h1><span class="typed"></span></h1>
+        <p>營養師 dietitian</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+          <li><a href="#"><i class="ion-social-facebook" ></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram" ></i></a></li>
         </ul>
       </div>
     </div>
@@ -104,8 +101,8 @@
         <div class="col-lg-7">
           <div class="about-descr">
 
-            <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-            <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+            <p class="p-heading">如果「吃」常帶給你的是罪惡感，那麼你需要從「心」檢視你和飲食的關係。</p>
+            <p class="separator">生活中已經有很多的壓力來源，「飲食」這件事，不該成為剝奪快樂的來源之一。飲食中沒有一定的規則，過多的限制，只會打亂身體的步調。飲食應該帶來滿足和快樂，而不是愧疚和罪惡。我們要做的，是好好聆聽自己身體的聲音，聽聽身體對於飲食的需求，利用這些訊息來選擇自己所需要的食物種類和數量。</p>
 
           </div>
 
@@ -125,48 +122,32 @@
           <div class="services-block">
 
             <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>美國註冊營養師</span>
+            <p class="separator">Registered Dietitian Nutritionist (RDN)</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>台灣註冊營養師</span>
+            <p class="separator">Registered Dietitian (RD)</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>美國密西根大學 營養科學系 碩士</span>
+            <p class="separator">Master of Science (MS) in Nutritional Sciences, University of Michigan</p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-          </div>
-
-          <div class="services-block">
-
-            <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+            <span>臺北醫學大學 保健營養學系 學士</span>
+            <p class="separator">Bachelor of Science (BS) in Nutrition and Health Sciences, Taipei Medical University</p>
 
           </div>
 
@@ -177,13 +158,12 @@
   </div>
   <!-- end section services -->
 
-
   <!-- start section portfolio -->
   <div id="portfolio" class="text-center paddsection">
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>My Portfolio</h2>
+        <h2>營養與我 Nutrition to Me</h2>
       </div>
     </div>
 
@@ -194,51 +174,56 @@
           <div class="portfolio-list">
 
             <ul class="nav list-unstyled" id="portfolio-flters">
-              <li class="filter filter-active" data-filter=".all">all</li>
-              <li class="filter" data-filter=".branding">branding</li>
-              <li class="filter" data-filter=".mockups">mockups</li>
-              <li class="filter" data-filter=".uikits">ui kits</li>
-              <li class="filter" data-filter=".webdesign">web design</li>
-              <li class="filter" data-filter=".photography">photography</li>
+              <li class="filter" data-filter=".trip">我的營養之旅</li>
+              <li class="filter" data-filter=".belief">我所相信的營養</li>
+              <li class="filter" data-filter=".life">我的營養生活</li>
             </ul>
 
           </div>
 
           <div class="portfolio-container">
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+            <div class="col-lg-12 col-md-6 portfolio-thumbnail trip">
               <a class="popup-img" href="images/portfolio/1.jpg">
-                <img src="images/portfolio/1.jpg" alt="img">
+                <img src="images/grad pic.jpg" alt="img">
+                <p> This is the photo credit 1. </p>
+                <h3>我的營養之旅</h3>
+                <p style="text-align: left;">因為對於生物和醫學的興趣，以及看到家人在慢性疾病的治療過程所受的苦痛，讓我深刻了解維持健康和預防疾病的重要。如果我們平時好好照顧自己的身體，保持健康，就能預防疾病的產生，也就不用承受藥物或任何治療所帶來的不舒適。</p>
+                <p style="text-align: left;">幫助我們維持健康的方法有很多，其中，飲食，是最天然也最容易開始著手的方式。我們每天都需要食物產生能量，藉由食物中的營養素來維持身體的正常運作，因此，均衡的飲食是我們維持健康關鍵。</p>
+                <p style="text-align: left;">在接受了台灣和美國的營養教育及訓練後，我發現了，當大家談論到營養時，大多著重於生理上的健康，而花比較少時間討論心理上的健康。但是，健康應該是生理和心理的狀態都要完整，飲食和營養也應該同時滿足生理和心理上的需求。</p>
+                <p style="text-align: left;">一開始學習營養時，我相信，我們可以藉由營養均衡的飲食習慣，來維持健康。現在的我，仍然維持著這個信念，但接下來的營養之旅，我會更注重如何藉由飲食和營養，來同時維持「生理」和「心理」的健康。</p>
               </a>
+
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
+            <div class="col-lg-12 col-md-6 portfolio-thumbnail belief">
               <a class="popup-img" href="images/portfolio/2.jpg">
-                <img src="images/portfolio/2.jpg"  alt="img">
+                <img src="images/Japanese Garden.jpg"  alt="img">
+                <p> This is the photo credit 2. </p>
+                <h3>我所相信的營養</h3>
+                <br>
+                <br>
+                <h4> 食物沒有所謂的好與壞 </h4>
+                <p style="text-align: left;">我們常常會將食物歸類，好或是壞，健康或是不健康，可以或是不可以吃。但食物的分類，並不是非黑即白這麼簡單。糙米飯可以提供身體所需的部分維生素、礦物質和纖維素，但吃得過多也可能造成腸道消化不良。空有熱量而極少營養素的蛋糕，即使無法提供身體完整的營養需求，卻能滿足我們的心靈。只要攝取適度的量，任何食物都可以是好的食物。</p>
+                <br>
+                <h4> 身體會幫助我們做出飲食的選擇 </h4>
+                <p style="text-align: left;">我們是最了解自己的人，可以自己做出最合適的飲食選擇。我們不是非得要依賴外界的資訊，而是需要靜下心來聽聽自己身體的聲音。當身體和飲食建立了良好的關係，我們就能相信身體的聲音，根據他所發出的訊息，選擇自己所需要的食物種類、數量以及進食的時間，選擇能滿足生理和心理所需的飲食模式。</p>
+                <br>
+                <h4> 體重不能用來衡量健康 </h4>
+                <p style="text-align: left;">體重和身形是無法被用來衡量健康、美醜、或是自我價值的。在我們的生活周遭，充斥著對於體重和身形的刻板印象。這些不正確的刻板印象，也為我們的自我認同、人際交流、飲食模式、生活型態、身心健康帶來負面影響。不應該為了這些不正確的刻板印象而節食、運動、甚至是懷疑自我。無論是哪種身材，都值得被接受和愛護。</p>
+                <br>
+                <h4> 飲食應該帶來快樂和滿足 </h4>
+                <p style="text-align: left;">食物和飲食提供我們身心靈所需的營養。他們是我們的朋友，而不是敵人。我們不需要因為吃了什麼食物而感到罪惡。放慢進食的速度，透過嗅覺、視覺、味覺、觸覺，細細品嘗食物所帶來的各種感受。好好享受他們所帶來的快樂和滿足感。我們要和飲食建立良好的關係，與食物和睦相處。</p>
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
+            <div class="col-lg-12 col-md-6 portfolio-thumbnail life">
               <a class="popup-img" href="images/portfolio/3.jpg">
-                <img src="images/portfolio/3.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-              <a class="popup-img" href="images/portfolio/4.jpg">
-                <img src="images/portfolio/4.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-              <a class="popup-img" href="images/portfolio/5.jpg">
-                <img src="images/portfolio/5.jpg" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-              <a class="popup-img" href="images/portfolio/6.jpg">
-                <img src="images/portfolio/6.jpg" alt="img">
+                <img src="images/Joshua Tree.jpg" alt="img">
+                <p> This is the photo credit 3. </p>
+                <h3>我的營養生活</h3>
+                <p style="text-align: left;">無論是工作或是日常，我的生活離不開飲食和營養，也因此，我更把握飲食和營養以外的時間。從動態的運動、瑜珈、旅遊，到靜態的閱讀、電影、影集，都是我放鬆和補充能量的方式。我也很喜歡到處逛逛，有時間就會到超市、大賣場、農夫市集、創意市集走走看看，就算最後什麼也沒買到，我也會覺得很滿足。</p>
+                <p style="text-align: left;">生活，可以很平淡，也可以很充實，也可以兩者並存。無論哪種模式，我都會留點時間給自己，好好照顧自己的身心靈。而這，就是我的營養生活。</p>
               </a>
             </div>
 
@@ -251,12 +236,73 @@
   <!-- End section portfolio -->
 
 
+   <!-- start section podcast -->
+  <div id="podcast" class="paddsection">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h2>有聲節目 Podcast</h2>
+      </div>
+
+      <div class="row justify-content-between">
+
+        <div class="col-lg-7">
+          <div class="podcast-descr">
+
+            <p class="p-heading">心 營養 | Make peace with food</p>
+            <p class="subtitle">一個幫助你與飲食建立良好關係的頻道</p>
+
+            <p class="p-heading"></p>
+            <p class="separator">飲食應該要能同時維持生理和心理上的健康，但往往我們只注重飲食對於生理上的影響，而忽略了心理上的需求。</p>
+            <p class="separator">我們時常盲目地追隨著媒體、網路的建議來調整自己的飲食，可是卻很少聆聽自己身體的聲音，聽聽身體告訴我們，他需要什麼。</p>
+			<p class="separator">我們經常不自覺地被囚禁在社會對於外表、身型的刻板印象中，讓自己的飲食行為亂了序，讓身體承受著生理和心理的壓力。</p>
+            <p class="separator">其實，任何食物都可以是健康的食物，各種身材都值得被接受和愛護。飲食應該帶來滿足和快樂，而不是愧疚和罪惡。心 營養想和你一起，跟飲食建立良好的關係，和食物和睦相處，讓我們重新愛護自己。</p>
+            <p class="separator">在心 營養裡，營養師雅雯會帶你從心開始，重新認識飲食和營養。</p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-5">
+          <div class="div-img-bg">
+            <div class="podcast-img">
+              <img src="images/podcast_cover.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+
+          <br><br><br><br><br>
+
+          <div class="socials-media text-center">
+        	<ul class="list-unstyled">
+          		<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          		<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          		<li><a href="#"><i class="ion-social-google"></i></a></li>
+          		<li><a href="#"><i class="ion-social-apple"></i></a></li>
+        	</ul>
+      	  </div>
+        </div>
+
+         <div class="col-lg-12">
+          <div class="podcast-descr">
+            <p class="subtitle">免責聲明</p>
+            <p class="separator">線上有聲節目-- 心 營養，所提供的任何訊息，以傳達營養和健康的相關理念和訊息為目的。心 營養內容為張雅雯 營養師在統整科學研究以及專業書籍、媒體資料後的個人意見，內容會經過篩選，確認其正確性及完整性，但心 營養內容皆為參考之用，而非提供任何醫療相關的診斷和治療，也絕對無法取代專業的醫療建議。在使用心 營養提供的內容做為治療計劃前，請與您的營養師、醫師、心理師，或是相關醫護人員進行討論。如果需要醫療診斷和治療，請諮詢營養師、醫師、心理師或合適的醫護人員。</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- end section podcast -->
+
+
+
   <!-- start section journal -->
-  <div id="journal" class="text-left paddsection">
+  <div id="episode" class="text-left paddsection">
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>journal</h2>
+        <h2>單集節目 Episode</h2>
       </div>
     </div>
 
@@ -329,13 +375,12 @@
           <div class="col-lg-6">
             <div class="contact-contact">
 
+              <h2 class="mb-30">留言給我</h2>
               <h2 class="mb-30">GET IN TOUCH</h2>
 
               <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
-                <li><span>example@example.com</span></li>
+                <li><span>你也可以寄信給我歐</span></li>
+                <li><span>信箱 email：yawenrdn@gmail.com</span></li>
               </ul>
 
             </div>
@@ -350,34 +395,27 @@
 
                 <div class="col-lg-6">
                   <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="你的名字 Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                     <div class="validation"></div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="你的信箱 Email" data-rule="email" data-msg="Please enter a valid email" />
                     <div class="validation"></div>
                   </div>
                 </div>
 
                 <div class="col-lg-12">
                   <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="你想對我說 Message"></textarea>
                     <div class="validation"></div>
                   </div>
                 </div>
 
                 <div class="col-lg-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                  <input type="submit" class="btn btn-defeault btn-send" value="送出訊息 Send message">
                 </div>
 
               </div>
@@ -389,6 +427,34 @@
   </div>
   <!-- start sectoion contact -->
 
+  <!-- start section disclaimer -->
+  <div id="disclaimer" class="paddsection">
+    <div class="container">
+
+      <div class="row justify-content-between">
+
+         <div class="col-lg-12">
+            <div class="section-title text-center">
+        		<h2>免責聲明 Disclaimer</h2>
+      		</div>
+      		<p>在使用本網站前，請認真閱讀以下聲明</p>
+      		<br>
+      		<h3>擁有權利</h3>
+            <p class="separator">本網站為 張雅雯 營養師 所擁有。張雅雯 營養師可以隨時更新、修改或刪減本網站之內容，無需做事先通知。</p>
+            <h3>營養師業務</h3>
+            <p class="separator">張雅雯 營養師為台灣註冊營養師，擁有台灣營養師證照，但並沒有在台灣申請執業登記，因此沒有台灣營養師的執業執照。遵照台灣營養師法，張雅雯 營養師目前並沒有在台灣進行營養師業務，因此，張雅雯 營養師目前不會在台灣提供營養評估、飲食設計、營養諮詢等服務。</p>
+            <p class="separator">張雅雯 營養師為美國註冊營養師，擁有美國營養師證照。在美國執業，不受台灣營養師法規規範。</p>
+            <h3>網站訊息</h3>
+            <p class="separator">本網站所提供的任何訊息，以傳達營養和健康的相關理念和訊息為目的。本網站的內容為張雅雯 營養師在統整科學研究以及專業書籍、媒體資料後的個人意見，內容會經過篩選，確認其正確性及完整性，但本網站的內容皆為參考之用，而非提供任何醫療相關的診斷和治療，也絕對無法取代專業的醫療建議。在使用本網站提供的內容做為治療計劃前，請與您的營養師、醫師、心理師，或是相關醫護人員進行討論。如果需要醫療診斷和治療，請諮詢營養師、醫師、心理師或合適的醫護人員。</p>
+            <br>
+            <p>使用本網站表示您了解並同意以上聲明。</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- end section disclaimer -->
 
   <!-- start section footer -->
   <div id="footer" class="text-center">
@@ -397,11 +463,7 @@
 
         <ul class="list-unstyled">
           <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
           <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
         </ul>
 
       </div>
