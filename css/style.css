@@ -177,6 +177,7 @@ p {
 
 .mb-30 {
   margin-bottom: 30px;
+  color: #292929;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -229,8 +230,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 .responsive {
@@ -318,7 +319,7 @@ nav ul li a {
 
 #about .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-size: 30px;
   text-align: left;
   letter-spacing: 1px;
   line-height:150%;
@@ -591,7 +592,7 @@ nav ul li a {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #113a34;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
