@@ -303,7 +303,14 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
+  width: 95%;
+  height: 103%;
+  /*
+  padding-top: 0px;
+  padding-right: -10px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  */
   border: 20px 
   solid #b8a07e;
 }
@@ -311,9 +318,10 @@ nav ul li a {
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
+  margin-top: -50px;
+  margin-bottom: 10px;
   margin-left: 40px;
-  height: 400px;
+  /*height: 150%;*/
   object-fit: cover;
 }
 
