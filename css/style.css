@@ -49,6 +49,13 @@ h4 {
   text-decoration: underline;
 }
 
+h5 {
+  color: #292929;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 150%;
+}
+
 a {
   color: #292929;
   text-decoration: none !important;
@@ -355,18 +362,36 @@ nav ul li a {
 
 #about .about-descr .p-heading {
   font-family: 'Playfair Display', serif;
-  font-size: 30px;
+  font-size: 32px;
   text-align: left;
   letter-spacing: 1px;
   line-height:150%;
 }
 
+#about .about-descr .p-heading_en {
+  font-family: 'Bell MT', sans-serif;
+  font-size: 32px;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height:150%;
+}
 #about .about-descr .separator {
+  font-family: 'Playfair Display', serif;
   max-width: 100%;
   margin-bottom: 0;
   text-align: left;
   letter-spacing: 1px;
   line-height:150%;
+}
+
+#about .about-descr .separator_en {
+  font-family: 'Bell MT', sans-serif;
+  font-size: 18px;
+  max-width: 100%;
+  margin-bottom: 0;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height:130%;
 }
 
 /*-----------------------------------------------------------------------------------*/

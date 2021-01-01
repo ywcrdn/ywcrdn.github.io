@@ -85,6 +85,19 @@ $(document).ready(function() {
     });
   });
 
+// ========================================================================= //
+  //  Typed eng version Js
+  // ========================================================================= //
+
+  var typed_eng = $(".typed_en");
+
+  $(function() {
+    typed_eng.typed({
+      strings: ["Ya-Wen Chang", "Dietitian"],
+      typeSpeed: 100,
+      loop: true,
+    });
+  });
 
   // ========================================================================= //
   //  Owl Carousel Services
