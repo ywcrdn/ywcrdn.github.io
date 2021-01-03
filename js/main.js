@@ -100,11 +100,11 @@ $(document).ready(function() {
   });
 
   // ========================================================================= //
-  //  Owl Carousel Services
+  //  Owl Carousel Experience
   // ========================================================================= //
 
 
-  $('.services-carousel').owlCarousel({
+  $('.experience-carousel').owlCarousel({
       autoplay: true,
       loop: true,
       margin: 20,
@@ -168,3 +168,44 @@ $(window).load(function(){
   });
 
 })
+
+// ========================================================================= //
+//  Services isotope and filter
+// ========================================================================= //
+$(window).load(function(){
+
+  var serviceIsotope = $('.services-container').isotope({
+    itemSelector: '.services-thumbnail',
+    layoutMode: 'fitRows'
+  });
+
+  $('#services-flters li').on( 'click', function() {
+    $("#services-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    serviceIsotope.isotope({ filter: $(this).data('filter') });
+  });
+
+})
+
+
+// ========================================================================= //
+//  Services collapsible
+// ========================================================================= //
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
+

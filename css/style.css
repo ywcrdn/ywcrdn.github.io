@@ -44,7 +44,7 @@ h3 {
 
 h4 {
   color: #292929;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -100,7 +100,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #7F7F7F;
   line-height: 28px;
 }
 
@@ -223,7 +223,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: #6b6b6b;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -327,7 +327,7 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -442,6 +442,7 @@ nav ul li a {
   margin-bottom: 0;
   line-height:150%;
   text-align: left;
+  font-weight: 400
 }
 
 #podcast .socials-media {
@@ -484,10 +485,10 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*   Services
+/*   Experience
 /*-----------------------------------------------------------------------------------*/
 
-#services {
+#experience {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
@@ -496,7 +497,7 @@ nav ul li a {
 .owl-item {
   float: left;
 }
-.services-block span {
+.experience-block span {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
@@ -507,29 +508,29 @@ nav ul li a {
   display: block;
 }
 
-.services-block .separator {
+.experience-block .separator {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
 }
 
-.services-block i {
+.experience-block i {
   font-size: 44px;
   color: #b8a07e;
   line-height: 44px;
 }
 
 
-.services-carousel  .owl-stage-outer {
+.experience-carousel  .owl-stage-outer {
   overflow: hidden;
 }
 
-.services-carousel .owl-dots {
+.experience-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-.services-carousel .owl-dot {
+.experience-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px !important;
@@ -541,7 +542,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-.services-carousel .owl-dot.active {
+.experience-carousel .owl-dot.active {
   background-color: #b8a07e;
 }
 
@@ -572,7 +573,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: #6b6b6b;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
@@ -610,6 +611,70 @@ nav ul li a {
 .portfolio-thumbnail img {
   max-width: 100%;
 }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Services
+/*-----------------------------------------------------------------------------------*/
+
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#services .services-list {
+  margin-bottom: 50px;
+}
+
+#services .services-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#services .services-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #6b6b6b;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#services .services-list .nav li:hover, #services .services-list .nav li.filter-active  {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#services .services-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.services-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.services-thumbnail img {
+  max-width: 100%;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
@@ -732,6 +797,50 @@ nav ul li a {
   font-weight: 400;
   font-size: 13px;
 }
+/*-----------------------------------------------------------------------------------*/
+/*  Utils
+/*-----------------------------------------------------------------------------------*/
+
+#services .collapsible {
+  background-color: #f7f7f7;
+  color: #292929;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#services .active, .collapsible:hover {
+  background-color: #f7f7f7;
+}
+
+#services .collapsible:after {
+  content: '\002B';
+  color: #292929;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#services .active:after {
+  color: #292929;
+  content: "\2212";
+}
+
+#services .content {
+  background-color: #ffffff;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-weight: 400;
+  text-align: left;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
