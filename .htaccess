@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^.*$ $0.html [L]
+
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.+)\.html$ $1 [L,R=301,NE]
