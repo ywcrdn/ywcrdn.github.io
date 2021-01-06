@@ -174,7 +174,7 @@ $(window).load(function(){
 // ========================================================================= //
 $(window).load(function(){
 
-  var serviceIsotope = $('.services-container').isotope({
+ var serviceIsotope = $('#services-container').isotope({
     itemSelector: '.services-thumbnail',
     layoutMode: 'fitRows'
   });
@@ -188,24 +188,25 @@ $(window).load(function(){
 
 })
 
-
 // ========================================================================= //
 //  Services collapsible
 // ========================================================================= //
+$(window).load(function(){
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-
-
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+      setTimeout(function(){
+        $('#services-container').isotope('layout');
+        }, 150);
+    }); 
+  }
+})     
